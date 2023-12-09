@@ -80,7 +80,7 @@ async def on_message(message):
         elif message.author.display_name == "Assasin":
             response = random.choice(Fortnite_roast)
             await message.channel.send("1000 Arena points wala bot")
-        elif message.author.display_name == "sarkari tatta":
+        elif message.author.display_name == "":
             response = random.choice(Fortnite_roast)
             await message.channel.send("0 mechanics wala controller player")
         elif message.author.display_name == "i dont take anti depressants":
